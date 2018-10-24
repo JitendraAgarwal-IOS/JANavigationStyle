@@ -14,6 +14,9 @@
 		43447D402179D97200E7E8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43447D3E2179D97200E7E8C1 /* LaunchScreen.storyboard */; };
 		43447D4B2179D97200E7E8C1 /* JANavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447D4A2179D97200E7E8C1 /* JANavigationTests.swift */; };
 		43447D562179D97200E7E8C1 /* JANavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447D552179D97200E7E8C1 /* JANavigationUITests.swift */; };
+		43447D652179DAF600E7E8C1 /* JANagivationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447D642179DAF600E7E8C1 /* JANagivationStyle.swift */; };
+		43447D692179F21100E7E8C1 /* UIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43447D682179F21100E7E8C1 /* UIController.swift */; };
+		43804A73217E0E2400C774D6 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43804A72217E0E2400C774D6 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		43447D512179D97200E7E8C1 /* JANavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JANavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43447D552179D97200E7E8C1 /* JANavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JANavigationUITests.swift; sourceTree = "<group>"; };
 		43447D572179D97200E7E8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43447D642179DAF600E7E8C1 /* JANagivationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JANagivationStyle.swift; sourceTree = "<group>"; };
+		43447D682179F21100E7E8C1 /* UIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIController.swift; sourceTree = "<group>"; };
+		43804A72217E0E2400C774D6 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,14 @@
 		43447D342179D96300E7E8C1 /* JANavigation */ = {
 			isa = PBXGroup;
 			children = (
+				43447D632179D98B00E7E8C1 /* Class */,
 				43447D352179D96300E7E8C1 /* AppDelegate.swift */,
 				43447D372179D96300E7E8C1 /* ViewController.swift */,
 				43447D392179D96300E7E8C1 /* Main.storyboard */,
 				43447D3C2179D97200E7E8C1 /* Assets.xcassets */,
 				43447D3E2179D97200E7E8C1 /* LaunchScreen.storyboard */,
 				43447D412179D97200E7E8C1 /* Info.plist */,
+				43804A72217E0E2400C774D6 /* DetailsVC.swift */,
 			);
 			path = JANavigation;
 			sourceTree = "<group>";
@@ -123,6 +131,15 @@
 				43447D572179D97200E7E8C1 /* Info.plist */,
 			);
 			path = JANavigationUITests;
+			sourceTree = "<group>";
+		};
+		43447D632179D98B00E7E8C1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				43447D642179DAF600E7E8C1 /* JANagivationStyle.swift */,
+				43447D682179F21100E7E8C1 /* UIController.swift */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43447D652179DAF600E7E8C1 /* JANagivationStyle.swift in Sources */,
 				43447D382179D96300E7E8C1 /* ViewController.swift in Sources */,
 				43447D362179D96300E7E8C1 /* AppDelegate.swift in Sources */,
+				43447D692179F21100E7E8C1 /* UIController.swift in Sources */,
+				43804A73217E0E2400C774D6 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
